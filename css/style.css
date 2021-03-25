@@ -1,0 +1,27 @@
+:root{ /*Define paleta de colores*/
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+
+    --fuente-principal: 3.8rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+
+.titulo{
+    text-align: center;                      /*1rem = 10 píxeles, pero se adaptaran mejor para*/
+    font-size: var(--fuente-principal);     /*pantallas con alta densidad de pixeles. Para eso,agregamos*/
+    color: var(--primario);                 /*los primeros estilos a html y body al inicio de style.css*/
+                        
+}
+
+.titulo span{
+    font-size: 2rem;
+}
