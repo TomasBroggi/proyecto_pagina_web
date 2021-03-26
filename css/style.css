@@ -22,7 +22,7 @@ los primeros estilos a html y body al inicio de style.css*/
 .titulo{ 
     text-align: center;                      
     font-size: var(--fuente-principal);     
-    color: var(--primario);
+    color: var(--oscuro);
 }
 
 .titulo span{
@@ -30,5 +30,38 @@ los primeros estilos a html y body al inicio de style.css*/
 }
 
 .navegacion-principal{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bg{
     background-color: var(--secundario);
 }
+
+
+.contenedor{
+    width: 120rem; /*Limita a 1200 pixeles*/
+    /*
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom:0;
+    margin-left: auto;
+    es lo mismo que la línea de abajo, como aguja de reloj*/
+    margin: 0 auto 0 auto;
+
+}
+
+.nav-bg a{
+    color: var(--blanco);
+    text-decoration: none; /*Saca el subrayado*/
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem; /*1 rem = 4 veces*/
+}
+
+.nav-bg a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro)
+}
+
