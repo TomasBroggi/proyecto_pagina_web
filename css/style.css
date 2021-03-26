@@ -11,17 +11,24 @@
 html{
     font-size: 62.5%;
 }
+
 body{
     font-size: 16px;
+    font-family: 'Krub', sans-serif;
 }
-
-.titulo{
-    text-align: center;                      /*1rem = 10 píxeles, pero se adaptaran mejor para*/
-    font-size: var(--fuente-principal);     /*pantallas con alta densidad de pixeles. Para eso,agregamos*/
-    color: var(--primario);                 /*los primeros estilos a html y body al inicio de style.css*/
-                        
+/*1rem = 10 píxeles, pero se adaptaran mejor para
+pantallas con alta densidad de pixeles. Para eso,agregamos
+los primeros estilos a html y body al inicio de style.css*/
+.titulo{ 
+    text-align: center;                      
+    font-size: var(--fuente-principal);     
+    color: var(--primario);
 }
 
 .titulo span{
     font-size: 2rem;
+}
+
+.navegacion-principal{
+    background-color: var(--secundario);
 }

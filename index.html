@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="css/style.css" as="style">
     <link href="css/style.css" rel="stylesheet">
 
-    </style>
 </head>
 <body>
     <header>
         <h1 class="titulo">Tomas Broggi <span>freelancer</span></h1>
     </header>
 
-    <nav>
+    <nav class="navegacion-principal">
         <a href="#">Inicio</a>
         <a href="#">Sobre mi</a>
         <a href="#">Clientes</a>
@@ -73,7 +76,7 @@
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M9 7c-3 0 -4 3 -4 5.5c0 3 2 7.5 4 7.5c1.088 -.046 1.679 -.5 3 -.5c1.312 0 1.5 .5 3 .5s4 -3 4 -5c-.028 -.01 -2.472 -.403 -2.5 -3c-.019 -2.17 2.416 -2.954 2.5 -3c-1.023 -1.492 -2.951 -1.963 -3.5 -2c-1.433 -.111 -2.83 1 -3.5 1c-.68 0 -1.9 -1 -3 -1z" />
                 <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
-              </svg>
+            </svg>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
             Nesciunt quaerat quos nam repudiandae cupiditate quae quisquam 
             porro dolor possimus veniam.</p>
@@ -93,13 +96,40 @@
             porro dolor possimus veniam.</p>
         </section>
     </main>
-
     <section>
-        <p>Contactos</p>
-    </section>
-
+        <h2>Contacto</h2>
+        <form>
+            <fieldset>
+                <legend>Contáctanos llenando todos los campos</legend>
+                    
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Tu Nombre"/>
+                </div>
+                
+                <div>
+                    <label>Teléfono</label>
+                    <input type="tel" placeholder="Tu Teléfono"/>
+                </div>
+                
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="Tu Email"/>        
+                </div>
+                
+                <div>
+                    <label>Mensaje</label>
+                    <textarea></textarea>        
+                </div>
+                
+                <div>
+                    <input type="submit" value="Enviar"/>
+                </div>
+            </fieldset>
+        </form>
+    </section>      
     <footer>
-        <p>Derechos reservados</p>
+        <p>Todos los derechos reservados Tomas Broggi</p>
     </footer>
 
 
