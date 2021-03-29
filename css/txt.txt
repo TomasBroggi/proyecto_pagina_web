@@ -1,0 +1,4 @@
+https://www.cssmatic.com/box-shadow para crear sombras
+CSS Grid te permite definir la ubicacion y tamnaño de los elentos.
+En flexbox el contenido crece automaticamente, pero en CSS se ubica dentro de un área definida.
+Flexbox tenes 1 dimension (row o colunm) pero en CSS Grid podes ubicar en las dos direcciones.
